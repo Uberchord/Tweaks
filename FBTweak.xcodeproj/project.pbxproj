@@ -72,18 +72,6 @@
 		4A21A32F1BDBF2FF005235F2 /* _FBColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1F48EA1901E4D500D7C4A2 /* _FBColorUtils.m */; };
 		4A21A3321BDBFC91005235F2 /* FBTweakEnabled.h in Headers */ = {isa = PBXBuildFile; fileRef = 18EFE535189F38D500DA6A5D /* FBTweakEnabled.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A21A3331BDBFDB7005235F2 /* FBTweakInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EFE4A9189EBAAD00DA6A5D /* FBTweakInline.m */; };
-		5BACB31E1A12813C00C4F79D /* _FBTweakArrayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BACB31C1A12813C00C4F79D /* _FBTweakArrayViewController.h */; };
-		4F930D6C1C4C73F8007DC0E1 /* FBTweakEnabled.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE535189F38D500DA6A5D /* FBTweakEnabled.h */; };
-		4F930D6D1C4C7406007DC0E1 /* FBTweakInlineInternal.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE4CF189EC70300DA6A5D /* FBTweakInlineInternal.h */; };
-		4F930D6E1C4C740F007DC0E1 /* FBTweakInline.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE4A8189EBAAD00DA6A5D /* FBTweakInline.h */; };
-		4F930D6F1C4C7417007DC0E1 /* _FBTweakBindObserver.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 184A94EE18D26871005F2774 /* _FBTweakBindObserver.h */; };
-		4F930D701C4C742A007DC0E1 /* FBTweak.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE4B5189EBC3100DA6A5D /* FBTweak.h */; };
-		4F930D711C4C742A007DC0E1 /* FBTweakCollection.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE4BA189EBC4B00DA6A5D /* FBTweakCollection.h */; };
-		4F930D721C4C742A007DC0E1 /* FBTweakCategory.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE525189F19B300DA6A5D /* FBTweakCategory.h */; };
-		4F930D731C4C742A007DC0E1 /* FBTweakStore.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE4BF189EBEAD00DA6A5D /* FBTweakStore.h */; };
-		4F930D741C4C743D007DC0E1 /* FBTweakShakeWindow.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE4AC189EBABA00DA6A5D /* FBTweakShakeWindow.h */; };
-		4F930D751C4C743D007DC0E1 /* FBTweakViewController.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 18EFE4A4189EBA9E00DA6A5D /* FBTweakViewController.h */; };
-		4F930D761C4C7453007DC0E1 /* _FBColorUtils.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = 5E1F48E91901E4D500D7C4A2 /* _FBColorUtils.h */; };
 		5BACB31F1A12813C00C4F79D /* _FBTweakArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BACB31D1A12813C00C4F79D /* _FBTweakArrayViewController.m */; };
 		5BE25A531A0AA9D500C97C3E /* _FBTweakDictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE25A511A0AA9D500C97C3E /* _FBTweakDictionaryViewController.m */; };
 		5E1708CA1905B89800402135 /* _FBSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E1708C41905B89800402135 /* _FBSliderView.m */; };
@@ -97,6 +85,7 @@
 		5EA9A2EA1911968D0071AB23 /* _FBTweakColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA9A2E81911968D0071AB23 /* _FBTweakColorViewController.m */; };
 		5EB0EA4018F5EFF3009481A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB0EA3F18F5EFF3009481A6 /* CoreGraphics.framework */; };
 		C15FEBB81C7F132400371B1D /* _FBTweakColorViewControllerHexDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C15FEBB71C7F132400371B1D /* _FBTweakColorViewControllerHexDataSource.m */; };
+		CB4A4D8C1F5856FC0006CE4C /* _FBTweakColorViewControllerHexDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C15FEBB71C7F132400371B1D /* _FBTweakColorViewControllerHexDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,17 +105,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				4F930D761C4C7453007DC0E1 /* _FBColorUtils.h in Copy Headers */,
-				4F930D6C1C4C73F8007DC0E1 /* FBTweakEnabled.h in Copy Headers */,
-				4F930D6F1C4C7417007DC0E1 /* _FBTweakBindObserver.h in Copy Headers */,
-				4F930D6D1C4C7406007DC0E1 /* FBTweakInlineInternal.h in Copy Headers */,
-				4F930D6E1C4C740F007DC0E1 /* FBTweakInline.h in Copy Headers */,
-				4F930D701C4C742A007DC0E1 /* FBTweak.h in Copy Headers */,
-				4F930D711C4C742A007DC0E1 /* FBTweakCollection.h in Copy Headers */,
-				4F930D721C4C742A007DC0E1 /* FBTweakCategory.h in Copy Headers */,
-				4F930D731C4C742A007DC0E1 /* FBTweakStore.h in Copy Headers */,
-				4F930D741C4C743D007DC0E1 /* FBTweakShakeWindow.h in Copy Headers */,
-				4F930D751C4C743D007DC0E1 /* FBTweakViewController.h in Copy Headers */,
 			);
 			name = "Copy Headers";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,37 +367,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		18EFE497189EBA5A00DA6A5D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18EFE4B7189EBC3100DA6A5D /* FBTweak.h in Headers */,
-				5E1708DD190B147000402135 /* _FBKeyboardManager.h in Headers */,
-				5E66FDD81B80ECDA007464F3 /* _FBTweakColorViewControllerHSBDataSource.h in Headers */,
-				18EFE4D5189EEBC500DA6A5D /* _FBTweakCategoryViewController.h in Headers */,
-				18EFE4D9189EEED800DA6A5D /* _FBTweakCollectionViewController.h in Headers */,
-				18EFE4B4189EBAC200DA6A5D /* FBTweakViewController.h in Headers */,
-				18EFE4C1189EBEAD00DA6A5D /* FBTweakStore.h in Headers */,
-				5E66FDD51B80EB6D007464F3 /* _FBTweakColorViewControllerDataSource.h in Headers */,
-				18EFE4B2189EBAC200DA6A5D /* FBTweakInline.h in Headers */,
-				5EA9A2E91911968D0071AB23 /* _FBTweakColorViewController.h in Headers */,
-				18EFE4B3189EBAC200DA6A5D /* FBTweakShakeWindow.h in Headers */,
-				5E1F48EB1901E4D500D7C4A2 /* _FBColorUtils.h in Headers */,
-				18EFE536189F38D500DA6A5D /* FBTweakEnabled.h in Headers */,
-				5E66FDCD1B80C309007464F3 /* _FBColorComponentCell.h in Headers */,
-				18EFE4D0189EC70300DA6A5D /* FBTweakInlineInternal.h in Headers */,
-				18EFE527189F19B300DA6A5D /* FBTweakCategory.h in Headers */,
-				18EFE4BC189EBC4B00DA6A5D /* FBTweakCollection.h in Headers */,
-				5BE25A521A0AA9D500C97C3E /* _FBTweakDictionaryViewController.h in Headers */,
-				18EFE4DD189EF75800DA6A5D /* _FBTweakTableViewCell.h in Headers */,
-				184A94F018D26871005F2774 /* _FBTweakBindObserver.h in Headers */,
-				5E66FDDC1B80FA78007464F3 /* _FBColorWheelCell.h in Headers */,
-				5E1708C91905B89800402135 /* _FBSliderView.h in Headers */,
-				5E66FDD21B80E4C1007464F3 /* _FBTweakColorViewControllerRGBDataSource.h in Headers */,
-				5BACB31E1A12813C00C4F79D /* _FBTweakArrayViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A21A2F91BDBF2B7005235F2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -604,6 +551,7 @@
 			files = (
 				4A21A31A1BDBF2FC005235F2 /* _FBTweakTableViewCell.m in Sources */,
 				4A21A31C1BDBF2FC005235F2 /* _FBTweakDictionaryViewController.m in Sources */,
+				CB4A4D8C1F5856FC0006CE4C /* _FBTweakColorViewControllerHexDataSource.m in Sources */,
 				4A21A3271BDBF2FC005235F2 /* _FBColorComponentCell.m in Sources */,
 				4A21A3161BDBF2FC005235F2 /* _FBTweakCategoryViewController.m in Sources */,
 				4A21A30B1BDBF2F2005235F2 /* FBTweakCategory.m in Sources */,
